@@ -27,3 +27,6 @@ def send_company_static_js(path, number):
 if __name__ == '__main__':
     # app.config['SESSION_TYPE'] = 'filesystem'
     app.run(port=5051, host='localhost', debug=True, use_debugger=True, use_reloader=True)
+
+def hello():
+    return "<p>Hello, World </p>"
